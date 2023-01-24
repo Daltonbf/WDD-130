@@ -19,7 +19,7 @@ footer{
 }
 
 nav{
-    background-color: cadetblue;
+    background-color: cadetblue; border:2px solid Tomato;
 }
 
 main{
