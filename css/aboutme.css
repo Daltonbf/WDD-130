@@ -2,16 +2,24 @@
 
 h1{
     font-family: 'Roboto', sans-serif;
-    color: blue;
+    color:black;
+    background-color: burlywood;
+
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
     color: blue;
+    background-color: beige;
 }
 
 head{
-    background-color: black;
+    background-color:burlywood;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -21,7 +29,7 @@ footer{
 }
 
 nav{
-    background-color: red; border:2px solid royalblue
+    background-color: goldenrod ; border:2px solid royalblue
 }
 
 main{
