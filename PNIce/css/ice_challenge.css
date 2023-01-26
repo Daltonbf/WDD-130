@@ -1,0 +1,37 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    background-color: rgb(196, 51, 116);
+    font-size: xx-large;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(28, 28, 222);
+    background-color: pink;
+    text-align: center;
+}
+
+blockquote1{
+    background-color: rgba(216, 112, 147, 0.235); 
+    font-style: italic;
+    color: black;
+    font-size: large;
+}
+
+blockquote2{ 
+    font-style: italic;
+    color: white;
+    font-size: x-large;
+}
+
+
+ol{
+    background-color: rgba(184, 90, 121, 0.281);
+    font-size: larger;
+}
+
+main{
+    background-color: whitesmoke;
+}
+
