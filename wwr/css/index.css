@@ -10,8 +10,8 @@ body{
     color: blue;
 }
 
-head{
-    background-color: black;
+header{
+    background-color: burlywood;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -21,11 +21,17 @@ footer{
 }
 
 nav{
-    background-color: goldenrod; border:2px solid royalblue
+    background-color: goldenrod; border:2px solid royalblue;
+    font-size: larger;
 }
 
 main{
     background-color: beige;
+    text-align: center;
+}
+
+div{
+    background-color: floralwhite;
     text-align: center;
 }
 
