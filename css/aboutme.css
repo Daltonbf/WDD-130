@@ -4,12 +4,13 @@ h1{
     font-family: 'Roboto', sans-serif;
     color:black;
     background-color: burlywood;
+    text-align: center;
 
 }
 
 h2{
     font-family: 'Times New Roman', Times, serif;
-    background-color: burlywood;
+    text-align: center;
 }
 
 body{
@@ -34,4 +35,12 @@ nav{
 
 main{
     background-color: beige;
+}
+
+img{
+    border: 6px solid brown;
+}
+
+img:hover{
+    border-color: aliceblue;
 }
