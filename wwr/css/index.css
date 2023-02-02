@@ -5,9 +5,16 @@ h1{
     color: blue;
 }
 
+h2{
+    margin: 0;
+}
+
 body{
-    font-family: 'Roboto', sans-serif;
-    color: blue;
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -23,6 +30,9 @@ footer{
 nav{
     background-color: goldenrod; border:2px solid royalblue;
     font-size: larger;
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
 }
 
 main{
@@ -45,4 +55,29 @@ img:hover{
 
 html{
     text-align: center;
+}
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+  }
+
+  .book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }

@@ -30,11 +30,11 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
-  text-align: center;
+  background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 img {
   display: block;
@@ -47,7 +47,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
+
 hr {
   height: 3px;
   margin: 35px 0;
@@ -107,10 +109,10 @@ nav  {
   display: flex;
 }
 nav a {
-  padding:1em;
-  min-width: 120px;
-  text-decoration: none;
-  padding: 10px;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -161,4 +163,19 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+.book, .join {
+  background-color: #d9c2a3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+}
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
 }
