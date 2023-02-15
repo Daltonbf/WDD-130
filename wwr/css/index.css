@@ -2,12 +2,9 @@
 
 html{
     align-items: center;
+    text-align: center;
 }
 
-h1{
-    font-family: 'Roboto', sans-serif;
-    color: blue;
-}
 
 h2{
     margin: 0;
@@ -22,11 +19,12 @@ body{
 }
 
 header{
-    background-color: burlywood;
     font-family: 'Roboto', sans-serif;
+    font-style: italic;
     color: white;
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 150px auto;
+    background-color: rgba(218, 8, 8, 0.568);
 }
 
 footer{
@@ -39,31 +37,18 @@ footer{
 }
 
 nav{
-    background-color: goldenrod; border:2px solid royalblue;
     font-size: larger;
     text-decoration: none;
     text-align: center;
     padding: 35px;
     display: flex;
     justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main{
-    background-color: beige;
-    text-align: center;
-}
-
-div{
-    background-color: floralwhite;
-    text-align: center;
-}
-
-img{
-    border: 5px solid white;
-}
-
-img:hover{
-    border: 5px dashed white;
+.icon{
+    width: 50px;
+    height: 50px;
 }
 
 .card-img {
@@ -85,17 +70,12 @@ html{
     font-size: 2em;
 }
 
-.msg {
-    background-color: #6f7364;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+img{
+    width: 100%;
 }
+
 .mountains {
     width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
@@ -114,29 +94,51 @@ main section img {
     box-sizing: border-box;
 }
 
-.logo_link {
+.logo{
+    width: 80px;
+    height: 80px;
+    grid-column: 1/2;
+}
+
+
+#logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
 
-.hero {
+#hero {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px; 
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 200px 200px 400px;
+    margin-top: -250px; 
+    text-align: center;
 }
 
-.hero-box {
+#hero-box {
+    display: grid;
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
 
-.hero-msg h4 {
-    color: white;
+#hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 250px;
+}
+
+.home-title, h4{
+    font-family: cursive;
+    color: teal;
+}
+
+
+.home-grid{
+    margin-top: 25%;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
 }
 
 .card-img, .mountains {
@@ -151,11 +153,12 @@ main section img {
 .camping-card{
     grid-column: 5/7;
     grid-row: 2/3;
+    width: 100%;
 }
 
 .rapids-card{
     grid-column: 8/10;
-    grid-row: 2/3
+    grid-row: 2/3;
 }
 
 #background{
@@ -163,11 +166,24 @@ main section img {
     grid-row: 4/9;
 }
 
-logo.png{
-    background-color: burlywood;
+.msg {
+    background-color: #6f7364;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.mountains {
     width: 100%;
-    height: 100%;
-    grid-column: 1/2;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 75px;
 }
 
 @media screen and (max-width: 900px) {
