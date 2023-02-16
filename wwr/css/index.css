@@ -139,9 +139,9 @@ main section img {
 
 
 .home-grid{
-    margin-top: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 1fr 50px;
     text-align: center;
 }
 
