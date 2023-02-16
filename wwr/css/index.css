@@ -5,6 +5,10 @@ html{
     text-align: center;
 }
 
+:any-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
 
 h2{
     margin: 0;
