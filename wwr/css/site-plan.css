@@ -179,3 +179,8 @@ nav a:hover {
 main section img {
   box-sizing: border-box;
 }
+
+.subpage{
+  width: 500px;
+  height: 500px;
+}
