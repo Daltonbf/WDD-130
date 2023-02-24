@@ -8,6 +8,9 @@ html{
     color: whitesmoke;
 }
 
+img{
+    border-radius: 50px;
+}
 
 header{
     font-family: 'Roboto', sans-serif;
