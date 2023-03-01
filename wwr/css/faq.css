@@ -79,6 +79,7 @@ nav{
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 10% 15% 25% 40% 15%;
+    margin-bottom: 20%;
 }
 
 h1, h2, h3, h4, h5, h6{
