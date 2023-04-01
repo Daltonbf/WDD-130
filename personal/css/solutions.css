@@ -23,68 +23,79 @@ nav{
     height: 100px;
 }
 
+.topic{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #247BA0;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    padding: 30%;
+}
 
 .content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 25px;
+    grid-template-rows: 30% 25% 55%;
+    grid-gap: 5px;
     font-style: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
 }
 
-.logo-center{
-    grid-column: 2;
-    grid-row: 1;
-    width: 700px;
-    height: 300px;
-    border-color: #1F487E;
-    border: 5px;
-}
 
-h1{
-    grid-column: 1;
-    grid-row: 1/2;
-    text-align: center;
-    font-size: medium;
-    margin-top: 50%;
-}
-
-.solutions{
-    grid-column: 1;
-    grid-row: 1/3;
-    width: 300px;
-    height: 300px;
+.problems{
+    grid-column: 3;
+    grid-row: 2;
+    width: 350px;
+    height: 350px;
     border-radius: 50px;
-    margin-top: 60%;
+    margin-left: 15%;
 }
 
-.wts_explain{
-    grid-column: 2;
+.repeat{
+    grid-column: 2/4;
+    grid-row: 1;
+    text-align: center;
+    font-size: larger;
+    background-color: #1F487E;
+    border-style: ridge;
+    font-style: normal;
+    color:#247BA0;
+}
+
+.complicated{
+    grid-column: 1/3;
     grid-row: 2;
     text-align: center;
     font-size: larger;
-    background-color: #247BA0;
+    background-color: #1F487E;
     border-style: ridge;
+    font-style: normal;
+    color:#247BA0;
 }
 
-h2{
-    grid-column: 3;
-    grid-row: 1/2;
-    text-align: center;
-    font-size: medium;
-    margin-top: 50%;
-
-}
-
-.answer{
-    grid-column: 3;
-    grid-row: 1/3;
-    width: 300px;
-    height: 300px;
+.component{
+    grid-column: 1;
+    grid-row: 3;
+    width: 500px;
+    height: 500px;
     border-radius: 50px;
-    margin-top: 60%;
+    margin-top: 15%;
 }
 
+
+.keep_up{
+    grid-column: 2/4;
+    grid-row: 3;
+    text-align: center;
+    font-size: larger;
+    background-color: #1F487E;
+    border-style: ridge;
+    font-style: normal;
+    color:#247BA0;
+}
 
 body{
     background-color: #fcfbfb;
@@ -101,6 +112,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     border-radius: 50px 50px 0px 0px;
+    margin-top: 15%;
 }
 .social{
     width: 30px;
